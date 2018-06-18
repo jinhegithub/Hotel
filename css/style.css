@@ -1,0 +1,351 @@
+html{
+	  
+        display: flex;
+        background-color: gray;
+        flex-flow: row nowrap;  
+      
+        justify-content: center;
+	   align-content: center;
+	    align-content: center;
+        align-items: center;
+          display: flex;
+        flex-flow: row nowrap; 
+        height:100%;
+        margin: 0;
+        padding: 0;
+        background:#eeeeee;
+    
+}
+*.{
+	margin: 0px;
+	padding: 0px;
+}
+body{	  /*recommend 1920 / 1080 max based on usage stats, use 100% to that point*/
+        width: 1000px;
+        max-width: 1000px;
+        height:100%;
+/*        max-height: 00px;
+*/        background:#fafafa;
+        -webkit-box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 96px 0px rgba(0,66,0,0.75);
+        box-shadow: 0px 0px 96px 0px rgba(0,0,0,22.75);
+
+}
+
+
+header{
+	background-color: white;
+	width: 1000px;
+	height: 60px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	
+}
+#owner{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+#tip{
+	float: right;
+}
+#word{
+	font-size: 20px;
+	vertical-align: center;
+}
+#locus{
+	left: 19px;
+	font-size: 36px;
+	color: lightblue;
+}
+#call{
+	bottom: 0px;
+	right :5px;
+	font-size: 15px;
+	text-align: right;
+
+}
+#nav{
+	font-size: 15px;
+	color: lightgray;
+	font-weight: bold;
+	top:30px;
+	left: 80px;
+}
+#pic{ 
+	margin: 6px;
+	text-align: center;
+
+}
+#pic img{
+	width: 970px;
+		border-width: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+
+footer{
+	float: left;
+	text-align: center;
+	color: white;
+	width: 1000px;
+	height: 60px;
+	background-color: black;
+	margin-bottom: 5px;
+
+}
+#money{
+	margin-top: 20px;
+	width: 800px;
+	height: auto;
+	float: left;
+}
+#paying{
+	border-left: solid;
+	padding-left: 30px;
+}
+.money_tip{
+	float: left;
+	/*list-style-type: none;*/
+}
+.money_tip li{
+	
+	float: left;
+	padding-right: 30px;
+	list-style-type: none;
+}
+section{
+
+	background-color: lightgray;
+	width: 1000px;
+	height: 1550px;
+}
+#contact{
+	margin-top:20px;
+ 	margin-right: 20px;
+	text-align: center;
+	float: right;
+	width:180px;
+	height:250px;
+	background-color: white;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	
+}
+
+#bar{
+
+	text-align: center;
+	margin-left: 30px;
+	float: left;
+	width: 730px;
+	height: 30px;
+	background-color: white;
+
+}
+#bar a{
+	color: red;
+	text-align: left;
+	margin:5px;
+	float: left;
+	padding-left: 60px;
+}
+#gallery{
+	width: 700px;
+	height: 275px;
+	background-color: tomato;
+	float: left;
+	margin :30px;
+	
+}
+.estimate{
+	width: 980px;
+	height: auto;
+}
+.tlb{
+	margin: 50px;
+	float: left;
+	width: 600px;
+	height: 350px;
+}
+#rating{
+	text-align: center;
+	float: right;
+
+	background-color: white;
+	width: 250px;
+	height: auto;
+	border-style: solid;
+	border-width: 0.7px;
+	border-radius: 0.7em;
+	border-color: green;
+}
+#rating_pane{
+	width: 200px;
+	height: auto;
+	margin: 20px;
+	border-width: 0.5px;
+	border-style: solid;
+	border-radius: 0.8em;
+}
+#star a img{
+	width: 20px;
+	height: 20px;
+}
+#review{
+	margin-top: -75px;
+    bottom: 38px;
+    float: left;
+    width: 930px;
+    height: 286px;
+    border-style: solid;
+    margin-left: 24px;
+    border-width: 1px;
+}
+
+.similar{
+
+	margin-left: 40px;
+	float: left;
+	width: 950px;
+	height: auto;
+}
+.similar1, .similar2{
+	margin: 30px;
+	float: left;
+	width: 400px;
+	height: 200px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+#see_more{
+	margin-right: 430px;
+  	float: right;
+	text-align: center;
+	font-size: 30px;
+}
+.firstpage{
+
+	width: 2100px;
+	height: 400px;
+	border-color: black;
+	border-style: solid;
+	border-width:  2px;
+	border-style: solid;
+	margin-bottom: 1px;
+}
+.map{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-family: Open Sans;
+}
+#akshay{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin:20px;
+	text-align: center;
+	vertical-align: center;
+	border-width:  1px;
+	border-style: solid;
+	border-radius: 11em;
+}
+#team{
+	margin-left: 10px;
+	float: left;
+}
+#team div{
+	float: left;
+	width: 280px;
+	height: 280px;
+	margin:20px;
+	border-width:  1px;
+	border-style: solid;
+ 	padding-left: 20px;
+}
+#page2{
+	margin-top: 110px;   
+	 width: 1000px;
+    height: 1877px;
+    border-width: 1px;
+    border-style: solid;
+}
+#page4{
+	width: 1000px;
+	height:260px;
+	background-color: white;
+/*	border-width:  1px;
+	border-style: solid;*/
+}
+#pane1{
+	width: 950px;
+	height: auto;
+	float: left
+}
+#tagline{
+	border-width: 1px;
+    border-style: solid;
+    width: 400px;
+    height: 200px;
+    
+    text-align: center;
+     margin-left:300px;
+}
+#locus-pane{
+	text-align: center;
+	border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    height: 100px;
+    margin:80px;
+
+}
+#provide{
+	background-color: white;
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	font-size: 30px;
+}
+#finding{
+	background-color: white;
+	margin-left: 150px;
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+	border-width: 1px;
+    border-style: solid;
+	width: 700px;
+	height: 50px;
+}
+#qqq{
+	background-color: white;
+	float: left;
+}
+#call3{
+	background-color: white;
+	float: right;
+}
+#blank{
+	background-color: white;
+	margin-top: 50px;
+	/*float: right;*/
+	float: left;
+	width: 1000px;
+	height: 300px;
+	border-top-style: solid;
+	border-width: 1px;
+}
+#page5{
+	float: left;
+	width: 1000px;
+	height: 1500px;
+}
+#search{
+	font-size: 30px;
+}
